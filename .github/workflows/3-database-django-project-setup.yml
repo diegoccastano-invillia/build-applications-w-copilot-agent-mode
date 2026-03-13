@@ -83,7 +83,7 @@ jobs:
         uses: skills/action-keyphrase-checker@v1
         with:
           text-file: octofit-tracker/backend/octofit_tracker/management/commands/populate_db.py
-          keyphrase: 'Populate the octofit_db database with test data'
+          keyphrase: 'Popular o banco de dados octofit_db com dados de teste'
           minimum-occurrences: 1
           case-sensitive: false
 
